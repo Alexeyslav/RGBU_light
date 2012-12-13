@@ -8,7 +8,7 @@
 *.eep
 
 # images
-*.jpg
+# *.jpg
 *.bmp
 *.png
 
