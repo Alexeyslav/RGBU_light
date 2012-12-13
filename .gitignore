@@ -1,0 +1,22 @@
+# Compiled source #
+###################
+*.dll
+*.exe
+*.o
+*.dcu
+*.hex
+*.eep
+
+# images
+*.jpg
+*.bmp
+*.png
+
+# auxiliary files
+*.cmd
+*.dsm
+
+# temporary files
+*.*~
+*.bak
+*.tmp
