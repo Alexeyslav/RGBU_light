@@ -3,6 +3,10 @@ RGBU_light
 
 4 channel R-G-B-U light effect modules with control from PC
 
+source language: Delphi, Atmel assembler.
+Hardware       : MASTER module - ATMEGA8,
+                 SLAVE modules - ATTINY13.
+
 Can be extended up to 254 4-channel modules to one master. Theoretical update speed - up to 400 modules per seconds, but on practice - about 100 per second.
 It`s potential to speed-up x2 faster by using 9.6Mhz clock source in modules and some modification in sources of master module.
 
