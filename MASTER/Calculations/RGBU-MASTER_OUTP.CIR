@@ -5,8 +5,8 @@ Program=Micro-Cap
 Screen=1680,1050
 MCAPVersion=7.0.0.0
 Key ID=12 345 678
-NLCnt=38
-TXCnt=0
+NLCnt=39
+TXCnt=1
 
 [shapedef]
 Name=Battery
@@ -103,7 +103,7 @@ Current=0,-8,8,-8
 Name=Resistor
 Definition=Resistor
 Shape=Resistor
-Mask=7937
+Mask=7681
 Label Offset=18,6,8,11
 PinCnt=2
 Pin="Plus",6,0,-10,-4
@@ -192,7 +192,7 @@ Digital F Color=11
 Digital 1 Color=9
 Digital X Color=7
 Digital Z Color=8
-Window Placement=2,3, -1,-1, -6,-26, 0,0,1115,553
+Window Placement=2,3, -1,-1, -6,-29, 0,0,1115,553
 Window Placement in Analysis=0,1, -1,-1, -6,-26, 837,0,1390,829
 Window Placement in Probe=0,0, 0,0, 0,0, 0,0,0,0
 Block Select Color=41
@@ -204,6 +204,10 @@ TitleBlock Field_5=Page $page of $maxpage
 TitleBlock One Title=True
 Title_Block_Border=False
 Title_Block=False
+
+[Object]
+Object=Rectangle
+Grids=91,20,113,61
 
 [Comp]
 Name=Resistor
@@ -305,6 +309,7 @@ Style=8192
 
 [Attr]
 ONV=-22,-43,VALUE,10v
+Style=8192
 
 [Attr]
 ONV=-17,-73,SLIDER_MAX,10
@@ -439,6 +444,10 @@ Grids=68,47,72,47
 
 [Condition Offsets]
 
+[Grid Text]
+Text=Load eqvalent
+Grid=98,23
+
 [Schematic]
 Page 0=0
 TabSize 0=320
@@ -519,7 +528,7 @@ Scale 1=1
 Scale 2=1
 SB 3=110,24
 Scale 3=1
-Grid=68,41
+Grid=128,23
 
 [Text Area]
 Font=Height=-15,FStyle=0,Color=4,Name=Courier New
